@@ -26,10 +26,6 @@ source venv/bin/activate
 Установка зависимостей:
 
 ```
-pip install pytest playwright
-```
-
-```
 pip install -r requirements.txt
 ```
 
