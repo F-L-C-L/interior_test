@@ -16,7 +16,17 @@ python -m venv env
 ```
 
 ```
+source venv/Scripts/activate
+```
+
+Установка зависимостей:
+
+```
 pip install pytest playwright
+```
+
+```
+pip install -r requirements.txt
 ```
 
 ```
@@ -26,5 +36,5 @@ playwright install
 Запустить тест:
 
 ```
-pytest test_playwright_title.py -v
+pytest test_2rdTask.py -v
 ```
