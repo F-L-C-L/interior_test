@@ -12,11 +12,15 @@ cd Interior_test
 Установить и активировать виртуальное окружение:
 
 ```
-python -m venv env
+python -m venv venv
 ```
-
+Для Windows:
 ```
 source venv/Scripts/activate
+```
+Для Mac/Linux:
+```
+source venv/bin/activate
 ```
 
 Установка зависимостей:
